@@ -1,0 +1,89 @@
+ a{
+     text-decoration: none ;
+ }
+ 
+ /*Utility Classes*/
+
+ 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   
+    top: 0;
+}
+
+.bg-primary{
+    background-color: #fdae0d!important;
+}
+
+
+.bg-main{
+    background-color:hsl(210, 20%, 94%) 
+}
+
+
+
+
+
+
+ .bg-dark{
+     background: #333;
+     color: rgb(12, 16, 240);
+ }
+ .fw-bold{
+     font-size: 2rem;
+
+ }
+.icon{
+    color: crimson;
+    background-color: aqua;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+}
+ 
+ .bold{
+     font-size: 1rem;
+     font-weight: bold;
+ }
+ 
+.footer-link{
+    text-decoration:none;
+    color: #000;
+}
+
+.footer-header{
+    border-bottom: 3px solid;
+    height: 58px;
+}
+
+.footer-link : hover{
+    color:red;
+}
+
+
+
+.m-1{
+margin: 1.25rem;
+}
+
+.m-2{
+    margin: 2.25rem;  
+}
+.m-3{
+    margin: 3rem;
+}
+
+.p-1{
+    padding: 1.25rem;
+}
+
+.p-2{
+    padding: 2.25rem;
+}
+
+.p-3{
+    padding: 3rem;
+}
